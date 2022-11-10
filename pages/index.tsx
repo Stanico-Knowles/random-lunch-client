@@ -7,9 +7,9 @@ import { IFoodPlaceCrtieria } from '../types/IFoodPlaceCriteria'
 
 export default function Home() {
   const [body, setBody] = useState<IFoodPlaceCrtieria>({
-    rating: null,
-    price: null,
-    distance: null,
+    rating: 1,
+    price: 1,
+    distance: 1,
   });
 
   const handleChange = (e: any) => {
